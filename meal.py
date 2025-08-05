@@ -148,3 +148,4 @@ if uploaded_file:
     st.markdown("### 🧬 Selected Features")
     st.markdown(f"**Correlation ({len(corr_features)} features)**: {corr_features}")
     st.markdown(f"**Firefly ({len(firefly_indices)} features)**: {[X.columns[i] for i in firefly_indices]}")
+
